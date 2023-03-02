@@ -5,7 +5,7 @@ LVM is a logical volume manager for the Linux kernel that allows you to manage d
 
 LVM combines multiple physical disk drives into a single “virtual” drive (Volume group). This virtual drive can then be divided into one or more logical volumes. Each logical volume can be formatted with a filesystem and mounted as a separate drive.
 
-![LVM](./image/lvm-diagram3.png)
+![LVM](./lvm-diagram3.png)
 
 ## Advantages of LVM
 
@@ -31,14 +31,14 @@ LVM combines multiple physical disk drives into a single “virtual” drive (Vo
 
 ## How data is stored in LVM
 
-![LVM](./image/lvm-diagram2.png)
+![LVM](./lvm-diagram2.png)
 
 ## Usage
 
 Before creation of a Physical Volume, you need to create a partition on the disk. You can use fdisk or gdisk to create a partition.
 (or you can use a whole disk as a Physical Volume).
 
-![lvm-managment](./image/lvm-diagram.png)
+![lvm-managment](./lvm-diagram.png)
 
 ### Create a Physical Volume
 ```bash
@@ -72,7 +72,7 @@ Some filesystem support resizing.while some filesystem does not supports resizin
 
 The following table shows the support for resizing in some file system.
 
-![lvm-resize](./image/lvm-table.png)
+![lvm-resize](./lvm-table.png)
 
 ### To expand a Logical Volume ( lvextend )
 ```bash
